@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/mainViewId"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+	<TextView android:id="@+id/listLabelId" android:layout_height="wrap_content" android:layout_width="wrap_content" 
+		android:text="Available providers:" />
+	
+		<ListView android:id="@android:id/list" 
+		android:background="@drawable/main_border"
+		android:layout_height="fill_parent" android:layout_width="fill_parent" 
+		android:layout_marginBottom="50dip"  />
+
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/buttons"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-50dip" 
+        android:gravity="bottom"
+        >
+	    	<Button
+	        	android:id="@+id/capture"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="fill_parent"
+	        	android:layout_alignParentBottom="true"
+	        	android:layout_alignParentRight="true"
+	        	android:layout_marginLeft="10dip"
+	        	android:text="Capture" />
+		    <Button
+		        android:id="@+id/deselect_all"
+	    	    android:layout_width="wrap_content"
+	        	android:layout_height="50sp"
+	        	android:layout_toLeftOf="@+id/capture"
+	        	android:layout_alignTop="@+id/capture"
+	        	android:text="Deselect All" />
+		    <Button
+		        android:id="@+id/select_all"
+	    	    android:layout_width="wrap_content"
+	        	android:layout_height="50sp"
+	        	android:layout_toLeftOf="@+id/deselect_all"
+	        	android:layout_alignTop="@+id/deselect_all"
+	        	android:text="Select All" />
+	</RelativeLayout>
+</LinearLayout>

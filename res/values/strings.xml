@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AFLogical OSE</string>
+	<string name="no_providers">No data is available on this device</string>
+	<string name="forensics_subdir">forensics</string>
+	<string name="no_external_drive">Cannot access external storage directory</string>
+	<string name="cant_access_subdirectory">Can\'t create or access external drive subdirectory named forensics</string>
+	<string name="ok">Ok</string>
+	<string name="yes">Yes</string>
+	<string name="no">No</string>
+	<string name="too_many_threads">Too many content providers were used. Number of content providers invoked = </string>
+	<string name="extracting_data">Extracting data...</string>
+	<string name="usbStorageOffTxt">Please \"Turn off USB storage\" before using this application.</string>
+	<string name="sdcardRemovedTxt">An external sdcard is required. Unable to detect any sdcard.</string>
+	<string name="noReadWriteTxt">The sdcard does not have read/write access.</string>
+</resources>

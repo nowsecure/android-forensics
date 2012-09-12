@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- TODO: Consider adding layout around checkbox so we can have other objects on the same row -->
+<CheckBox android:id="@+id/provider1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text=""
+    android:checked="true" />
